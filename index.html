@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style.css">
+    <title>Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section >
+        <div class="sub pri">
+            <p>Ano de Nascimento:</p>
+            <input type="date" min="01-01-1930" max="01-01-2022" name="idade" id="idade">
+        </div>
+
+        <div class="sub seg">
+            <p>Sexo: </p>
+            <input type="radio" name="sexo" id="marculino">
+            <p>Masculino</p>
+            <input type="radio" name="sexo" id="feminino">
+            <p>Feminino</p>
+        </div>
+
+        <input type="button" value="Verificar" onclick="clic()">
+
+        <div id="txtR"></div>
+        <div id="imgR"></div>
+    </section>
+
+    <footer>
+        <p>&copy; zandrocr</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
